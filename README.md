@@ -1,16 +1,18 @@
-# photo_filter_carousel
+Nama    : Ahmed Fathir Syafaat
 
-A new Flutter project.
+Kelas   : TI - 3H
 
-## Getting Started
+NIM     : 2241720083
 
-This project is a starting point for a Flutter application.
+# #09 | Kamera
 
-A few resources to get you started if this is your first Flutter project:
+## Praktikum 1: Mengambil Foto dengan Kamera di Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Terdapat di repository lain [kamera_flutter](https://github.com/Fyodor-DOs/kamera_flutter)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt text](assets/images/P1.gif)
+
+## Praktikum 2: Membuat photo filter carousel
+
+![alt text](assets/images/P2.gif)
+
