@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:photo_filter_carousel/widgets/filter_carousel.dart';
+import 'package:camera/camera.dart';
+import 'package:photo_filter_carousel/widgets/takepicture_screen.dart';
 
-void main() {
-  runApp(const MaterialApp(
-    home: PhotoFilterCarousel(),
-    debugShowCheckedModeBanner: false,
-  ));
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final cameras = await availableCameras();
+  final firstCamera = cameras.first;
+
+  runApp(
+    MaterialApp(
+      theme: ThemeData.dark(),
+      home: TakePictureScreen(camera: firstCamera),
+      debugShowCheckedModeBanner: false,
+    ),
+  );
 }
